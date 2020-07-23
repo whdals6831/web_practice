@@ -10,9 +10,9 @@
   /* 포지션 구현하기 */
   /* 불투명도 구현하기 */
   position: absolute;
-  opacity: 0.3;
+  opacity: 0.4;
   left: 200px;
-  z-index:2;
+  z-index:4;
 
 }
 .todo_2 {
@@ -25,8 +25,8 @@
   /* 불투명도 구현하기 */
   position: absolute;
   z-index:3;
-  left: 100px;
-  opacity: 0.3;
+  left: 150px;
+  opacity: 0.4;
 }
 .todo_3 {
   width: 500px;
@@ -38,9 +38,9 @@
   /* 불투명도 구현하기 */
   /* 사진 위로 오게끔 하기 */
   position: absolute;
-  opacity: 0.3;
-  left: 150px;
-  z-index:4;
+  opacity: 0.4;
+  left: 100px;
+  z-index:2;
 }
 
 .sample_img {
