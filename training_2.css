@@ -1,0 +1,20 @@
+.box_container {
+    width: fit-content;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+}
+.box_wrap {
+    display: flex;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    border: 3px solid yellowgreen;
+    background-color: yellowgreen;
+
+    margin: 3px;
+    border-radius: 3px;
+}

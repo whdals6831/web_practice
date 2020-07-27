@@ -1,0 +1,31 @@
+.box_container {
+    width: 350px;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+}
+.box_wrap_1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.box_wrap_2 {
+    display: flex;
+    justify-content: center;
+}
+
+.box_wrap_3 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    border: 3px solid yellowgreen;
+    background-color: yellowgreen;
+
+    margin: 3px;
+    border-radius: 3px;
+}
